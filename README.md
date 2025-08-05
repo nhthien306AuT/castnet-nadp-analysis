@@ -46,6 +46,7 @@ https://drive.google.com/file/d/1TXg5GOMSxpksGC-PUoPYI_Tegq7OGNcs/view?usp=drive
     + I just handle NaN or Null values a little to avoid confusion with sodium (ReadDatacsv.py).
 - Analyze step:
     + Review the code structure section above.
+    + The dashboard is organized into 5 views to ensure ease of exploration.
 - Share step:
     + Question 1: What impact are these chemicals having on the environment ?
         + SO₂ and HNO₃ contribute to acid rain, which lowers the pH of soil and aquatic systems. 
@@ -168,13 +169,13 @@ https://drive.google.com/file/d/1TXg5GOMSxpksGC-PUoPYI_Tegq7OGNcs/view?usp=drive
             + To explain this relationship, we can understand that when the concentration and moisture in both the atmosphere and the soil drop rapidly below a critical threshold, and the average temperature increases significantly, the Earth tends to self-regulate through large-scale natural disasters. Therefore, the severity and frequency of these disasters seem to be proportional to the sample loss index shown in the chart on the right, item Nadp.
     + Question 4: What thresolds are likely to cause potential and widespread ecological disruption ?
         + Looking at the chart on the right in the NADP section, we see 3 prominent peaks occurring in 2007, 2012, and 2020 — all between 530 and 540. These peaks may represent a critical threshold, where atmospheric concentrations and humidity have bottomed out and average temperatures in the United States have reached the maximum that Earth can tolerate. The Earth will immediately trigger large-scale natural disasters as a mechanism to reset and restore the balance of these two important indicators.
-    ==> If you want to verify large scale catastrophic natural events along with their frequency then you can rely on the peaks in the graph to the right of the castnet section. Then, open the excel file named: SampleLossStatistics-Range-All_result, and search by timestamps to determine the specific time range. Finally, you can bring the specific time segments to search on the internet for information about these large-scale events.
+    - If you want to verify large scale catastrophic natural events along with their frequency then you can rely on the peaks in the graph to the right of the castnet section. Then, open the excel file named: SampleLossStatistics-Range-All_result, and search by timestamps to determine the specific time range. Finally, you can bring the specific time segments to search on the internet for information about these large-scale events.
     - Finally, The ranking tab will show us the top missing and non-missing siteids. Used as an additional reference for the frequency tab.
 - Act step:
     + So we can see the effects of each chemical, the close relationships and the tolerance threshold. And with the continuous increase like that, the frequency of large-scale natural disasters in the future will continue to be more frequent and more catastrophic. This will cause damage to the US economy every year in the hundreds of billions of dollars.
-==> 1. Reduce the frequency of sample loss to reduce its threshold.
-    2. Reduce average heat in the US.
-    3. Increase humidity in air and soil.
++ 1. Reduce the frequency of sample loss to reduce its threshold.
++ 2. Reduce average heat in the US.
++ 3. Increase humidity in air and soil.
 
 
 
