@@ -30,7 +30,8 @@ https://drive.google.com/file/d/1TXg5GOMSxpksGC-PUoPYI_Tegq7OGNcs/view?usp=drive
 - Ask step:
     + 1. What impact are these chemicals having on the environment ?
     + 2. What is the close relationship between these chemicals and climate change ?
-    + 3. What thresolds are likely to cause potential and widespread ecological disruption ?
+    + 3. What causes widespread natural disasters to occur today?
+    + 4. What thresolds are likely to cause potential and widespread ecological disruption ?
 - Prepare step:
     + Data source: I got that dataset from someone else on social media - ( can download directly on castnet & nadp web).
     + 2 castnet files contain 10 columns, 1,227,750 rows, 242 siteids and 12 variables. 1 Nadp file contains 13 columns and 1,616,879 rows, 339 siteids and 8 variables.
@@ -141,7 +142,39 @@ https://drive.google.com/file/d/1TXg5GOMSxpksGC-PUoPYI_Tegq7OGNcs/view?usp=drive
             + Plays a nutritional role for plants, but excess can disrupt nutrient balance.
     + Question 2: What is the close relationship between these chemicals and climate change ? 
         + Firstly, we can navigate to tab 4: "Concentration", which displays a pie chart illustrating the relative proportions of each chemical compound.
-        +     
+        + In the CASTNET chart, the major contributors to total chemical concentration are: 
+            SO₂, SO₄, NH₃, TNO₃, HNO₃, NO₃, and NH₄.
+        + In the NADP chart, the dominant chemicals by proportion are: 
+            SO₄, NO₃, NH₄, and CL.
+        + Next, we will navigate to Frequency tab: the relationship will be explored in here.
+        + CASTNET collects dry deposition samples on a weekly basis, operating continuously. However, it tends to miss samples during rainy or excessively humid conditions, as such weather interferes with accurate dry deposition measurements. As a result, missing data are more common during wet seasons.
+        + NADP collects wet deposition samples, triggered by precipitation events (rain, snow, fog). During dry periods with little or no precipitation, no sample is collected, leading to increased missing data in dry seasons.
+        + By examining the missing data charts, we can identify 2 notable findings:
+            + On the left chart (showing missing samples across the entire map), there is a significant observation for the CASTNET dataset (blue): the frequency of simultaneous large-scale missing data events (defined as more than 5 site IDs missing at the same time) has increased substantially over time, with recurring peaks becoming more frequent.
+            + On the right chart (focusing on localized missing events within a 100 km radius involving more than 2 site IDs), a different pattern emerges for the NADP dataset (orange): while the overall increase in missing frequency is moderate, three clear peaks can be identified in 2007, 2012, and 2020. Notably, CASTNET’s chart beside it also shows an upward trend in missing events, and its peaks consistently follow the peaks observed in NADP.
+        *(skip 2024 due to insufficient data).
+    ### First Relationship - Castnet VS Nadp: right chart (range: 100km) 
+    - We can clearly observe a temporal pattern in the missing data trends:
+    Whenever a NADP peak occurs, there is always a corresponding peak in CASTNET.
+    ### Second Relationship - Chemical Trends VS Frequency
+    - We observe a clear downward trend in the concentrations of all chemical compounds from 2000 to 2024, including those with the highest proportions (Line graph - yearly average per chemical across the map).
+    - However, in stark contrast, the frequency of widespread missing samples has continued to rise and repeatedly reached new peaks over time.
+    + Question 3: What causes widespread natural disasters to occur today?
+        + Now, we will use these two relationships to find out the causes of large-scale natural disasters.
+        + With the second relationship, we can clearly a constrasting trend. This is explained by: 
+            + While pollutant concentrations such as SO₂ and NOₓ have significantly decreased due to environmental regulations,this also leads to a reduction in atmospheric aerosols, which previously reflected sunlight and had a cooling effect.
+            + The resulting increase in solar radiation accelerates global warming, contributing to more frequent and severe weather events. 
+        + With the first relationship, We will see the trend of the events that cause the sample.
+            + To explain this relationship, we can understand that when the concentration and moisture in both the atmosphere and the soil drop rapidly below a critical threshold, and the average temperature increases significantly, the Earth tends to self-regulate through large-scale natural disasters. Therefore, the severity and frequency of these disasters seem to be proportional to the sample loss index shown in the chart on the right, item Nadp.
+    + Question 4: What thresolds are likely to cause potential and widespread ecological disruption ?
+        + Looking at the chart on the right in the NADP section, we see 3 prominent peaks occurring in 2007, 2012, and 2020 — all between 530 and 540. These peaks may represent a critical threshold, where atmospheric concentrations and humidity have bottomed out and average temperatures in the United States have reached the maximum that Earth can tolerate. The Earth will immediately trigger large-scale natural disasters as a mechanism to reset and restore the balance of these two important indicators.
+    ==> If you want to verify large scale catastrophic natural events along with their frequency then you can rely on the peaks in the graph to the right of the castnet section. Then, open the excel file named: SampleLossStatistics-Range-All_result, and search by timestamps to determine the specific time range. Finally, you can bring the specific time segments to search on the internet for information about these large-scale events.
+    - Finally, The ranking tab will show us the top missing and non-missing siteids. Used as an additional reference for the frequency tab.
+- Act step:
+    + So we can see the effects of each chemical, the close relationships and the tolerance threshold. And with the continuous increase like that, the frequency of large-scale natural disasters in the future will continue to be more frequent and more catastrophic. This will cause damage to the US economy every year in the hundreds of billions of dollars.
+==> 1. Reduce the frequency of sample loss to reduce its threshold.
+    2. Reduce average heat in the US.
+    3. Increase humidity in air and soil.
 
 
 
